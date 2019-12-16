@@ -34,7 +34,8 @@ spring:
         username: root
     thymeleaf:
         cache: false
-        mode: HTML
-        encoding: utf-8
-        # Spring配置
-
+        content-type: text/html
+        encoding: UTF-8
+        mode: LEGACYHTML5
+        prefix: classpath:/templates/
+        suffix: .html

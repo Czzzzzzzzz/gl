@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.zero.system.ManagerSystemApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.111 s - in com.zero.system.ManagerSystemApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.97 s - in com.zero.system.ManagerSystemApplicationTests

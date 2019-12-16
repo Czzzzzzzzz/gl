@@ -1,10 +1,9 @@
 package com.zero.system.controller;
 
-import com.zero.system.entity.Admin;
-import com.zero.system.entity.TreeMenu;
-import com.zero.system.service.TreeMenuService;
-import com.zero.system.util.AjaxResult;
-import com.zero.system.util.Const;
+import java.util.List;
+
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
@@ -13,8 +12,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.http.HttpSession;
-import java.util.List;
+import com.zero.system.entity.Admin;
+import com.zero.system.entity.TreeMenu;
+import com.zero.system.service.TreeMenuService;
+import com.zero.system.util.AjaxResult;
+import com.zero.system.util.Const;
 
 /**
  * @Classname ManagerController
